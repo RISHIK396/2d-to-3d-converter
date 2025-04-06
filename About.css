@@ -1,0 +1,151 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    position: absolute;
+    display:flex;
+    width: 1536px;
+    height: 110px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid white;
+
+}
+
+.nav{
+    text-decoration: none;
+    color:white;
+    font-size: 19px;
+    font-family: Michroma;
+}
+
+.nav:hover{
+    color:#5f6562;
+    text-decoration: underline;
+    font-size:21px;
+
+}
+
+
+#end_visual{
+    position:fixed;
+    color: white;
+    font-family: Michroma;
+    font-size:  14px; 
+    width:110px;
+    height:20px;
+    left: 4px;
+    top:705px;
+}
+
+#end_contact{
+    position: fixed;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    font-family: Michroma;
+    top:705px;
+    left:1386px;
+
+}
+
+.images{
+    position:absolute;
+    top:250px;
+    height:300px;
+    width:900px;
+    display:flex;
+    left:297px;
+    justify-content: space-between;
+    
+}
+
+.img1{
+    border-radius: 28px;
+}
+
+#team_head{
+    position:absolute;
+    color: white;
+    top:170px;
+    left:651px;
+    font-size: 25px;
+}
+#team_desig{
+    position:absolute;
+    width:900px;
+    height:100px;
+    top:500px;
+    left:300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt{
+    color: white;
+    font-size:19px;
+}
+
+#txt1{
+    position: relative;
+    left: 32px;
+    
+}
+
+#txt2{
+    position:relative;
+    right:7px;
+}
+
+
+#txt3{
+    position:relative;
+    right:51px;
+}
+
+#txt4{
+    position: relative;
+    right:55px;
+}
+
+
+#desig{
+    position: absolute;
+    top:536px;
+    width:900px;
+    height:100px;
+    left: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.designation{
+    color:white;
+    font-size: larger;
+}
+
+#des1{
+    position:relative;
+    left:36px;
+}
+
+#des2{
+    position: relative;
+    left:11px;
+
+}
+
+#des3{
+    position: relative;
+    right:14px;
+}
+
+#des4{
+    position:relative;
+    right:42px;
+}
